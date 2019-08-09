@@ -1,0 +1,21 @@
+.Company {
+    font-size: 36px;
+    text-align: left;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.Company-text {
+    padding-top: 32px;
+}
+.Company-text-bottom {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.Company-text-small {
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.Company-enumeration {
+    font-size: 32px;
+}

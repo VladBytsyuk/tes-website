@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="Header-content">
           <img src={logo} className="Header-logo" alt="logo" />
           <div className="Header-titles">
-            <div className="Header-title"><b>ТехЭлектроСервис</b></div>
+            <div className="Header-title">ТехЭлектроСервис</div>
             <div className="Header-subtitle">Мы всегда предлагаем нашим клиентам оптимальное соотношение цена/качество, при этом сохраняя минимальные сроки поставок</div>
           </div>
         </div>

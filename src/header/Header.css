@@ -22,21 +22,22 @@
     height: 192px;
     text-align: start;
     color: #FFFFFF;
-    margin-top: 20px
+    margin-top: 16px
 }
 .Header-title {
     height: 72px;
     font-family: 'Russo One';
     letter-spacing: 10px;
     text-shadow: 2px 2px 2px #00000088;
-    font-size: 72px
+    font-size: 72px;
+    font-weight: 500;
 }
 .Header-subtitle {
     height: 84px;
     line-height: 32px;
     max-width: 870px;
     font-size: 28px;
-    margin-top: 32px
+    margin-top: 40px
 }
 
   

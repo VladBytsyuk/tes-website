@@ -4,3 +4,7 @@
     color: #ffffffbf;
     padding: 32px;
 }
+.Footer-center {
+    max-width: 1440px;
+    margin: 0 auto;
+}

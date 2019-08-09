@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-          Copyright © 2019  <b>ТехЭлектроСервис</b>
+          <div className="Footer-center">Copyright © 2019  <b>ТехЭлектроСервис</b></div>
       </div>
     );
   }
