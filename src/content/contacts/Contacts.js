@@ -15,7 +15,7 @@ class Contacts extends Component {
                                 <div className="Contacts-card-text-line">г. Ростов-на-Дону</div>
                                 <div className="Contacts-card-text-line">пр. Соколова 63</div>
                                 <div className="Contacts-card-text-line">Главпочтамт</div>
-                                <div className="Contacts-card-text-line">абонентский ящик 8001</div>
+                                <div className="Contacts-card-text-line-bottom">абонентский ящик 8001</div>
                             </div>
                         </div>
                         <div className="Contacts-card">
@@ -25,7 +25,7 @@ class Contacts extends Component {
                                 <div className="Contacts-card-text-line">344092</div>
                                 <div className="Contacts-card-text-line">город Ростов-на-Дону</div>
                                 <div className="Contacts-card-text-line">проспект Космонавтов 2/2</div>
-                                <div className="Contacts-card-text-line">Бизнес Центр ТАКТ, офис №307</div>
+                                <div className="Contacts-card-text-line-bottom">Бизнес Центр ТАКТ, офис №307</div>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ class Contacts extends Component {
                             <div className="Contacts-card-title">Контакты</div>
                             <div className="Contacts-hbox">
                                 <div className="Contacts-card-hbox-text-line">E-mail:</div>
-                                <div className="Contacts-card-hbox-text-line">
+                                <div className="Contacts-card-hbox-text-line-bottom">
                                     <div>tes-rnd@mail.ru</div>
                                     <div>info@tes-rnd.ru</div>
                                 </div>
@@ -54,11 +54,15 @@ class Contacts extends Component {
                         </div>
                         <div className="Contacts-card">
                             <div className="Contacts-card-title">Как добраться?</div>
-                            <div className="Contacts-card-map"></div>
+                            <div className="Contacts-card-map">
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="Contacts-map"></div>
+                <div className="Contacts-map">
+                    
+                </div>
             </div>
         );
     }
