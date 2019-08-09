@@ -1,0 +1,19 @@
+.MenuItem {
+    text-align: center;
+    width: 256px;
+    height: 60px;
+    font-size: 32px;
+    color: #FFFFFF;    
+}
+.MenuItem-name {
+    text-align: center;
+    height: 52px;
+    font-size: 32px;
+    color: #FFFFFF;    
+}
+.MenuItem-line {
+    width: 256px;
+    height: 8px;
+    background: #F85344;    
+}
+

@@ -1,0 +1,42 @@
+.Header-background {
+    text-align: center;
+    background-color: #00A28F;
+}
+.Header-content {
+    text-align: center;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.Header-logo {
+  height: 192px;
+  width: 192px;
+  margin-top: 32px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+
+.Header-titles {
+    height: 192px;
+    text-align: start;
+    color: #FFFFFF;
+    margin-top: 20px
+}
+.Header-title {
+    height: 72px;
+    font-family: 'Russo One';
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 2px #00000088;
+    font-size: 72px
+}
+.Header-subtitle {
+    height: 84px;
+    line-height: 32px;
+    max-width: 870px;
+    font-size: 28px;
+    margin-top: 32px
+}
+
+  
