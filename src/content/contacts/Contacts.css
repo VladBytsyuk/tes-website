@@ -1,3 +1,48 @@
 .Contacts {
-    
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.Contacts-card {
+    width: 50%;
+    background: #ededed;
+    padding: 32px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    box-shadow: 4px 4px 4px #00000040;
+    border-radius: 32px;
+    text-align: center;
+    transition: 0.3s;
+}
+.Contacts-card:hover {
+    background: #F85344;
+    box-shadow: 8px 8px 8px #00000040;
+    color: #ffffff
+}
+
+
+.Contacts-hbox {
+    display: flex;
+}
+
+.Contacts-card-title {
+    font-size: 36px;
+    min-height: 96px;
+    font-weight: 500;
+    font-family: "Russo One";
+}
+
+.Contacts-card-text-line {
+    font-size: 32px;
+}
+
+.Contacts-card-text-line {
+    font-size: 32px;
+}
+
+.Contacts-card-hbox-text-line {
+    width: 50%;
+    text-align: left;
+    font-size: 32px;
 }
