@@ -20,6 +20,7 @@
     width: 256px;
     height: 8px;
     background: #F8534400;    
+    transition: 0.3s;
 }
 .MenuItem:hover .MenuItem-line-disabled {
     width: 256px;
