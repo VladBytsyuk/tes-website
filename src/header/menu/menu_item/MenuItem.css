@@ -11,9 +11,19 @@
     font-size: 32px;
     color: #FFFFFF;    
 }
-.MenuItem-line {
+.MenuItem-line-enabled {
     width: 256px;
     height: 8px;
-    background: #F85344;    
+    background: #F85344ff;    
+}
+.MenuItem-line-disabled {
+    width: 256px;
+    height: 8px;
+    background: #F8534400;    
+}
+.MenuItem:hover .MenuItem-line-disabled {
+    width: 256px;
+    height: 8px;
+    background: #Ffffff88;    
 }
 
