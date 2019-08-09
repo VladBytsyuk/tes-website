@@ -14,7 +14,6 @@ class Job extends Component {
                     <div className="Job-enumeration">
                         <div className="Job-enumeration-title">Требования</div>
                         <div className="Job-enumeration-content">
-                            <ul>
                                 <li>Менеджер по оптовым продажам (электротехнического оборудования‚ кабель‚ инструмент и наконечники‚ маркировка и т. д.)</li>
                                 <li>Высшее образование</li>
                                 <li>Знание электротехники</li>
@@ -30,13 +29,11 @@ class Job extends Component {
                                 <li>Коммуникабельность</li>
                                 <li>Стресcоустойчивость</li>
                                 <li>Хорошая обучаемость</li>
-                            </ul>
                         </div>
                     </div>
                     <div className="Job-enumeration">
                         <div className="Job-enumeration-title">Обязанности</div>
                         <div className="Job-enumeration-content">
-                            <ul>
                                 <li>Активные продажи электротехнического оборудования (Центральный регион): электротехнического оборудования, кабель‚ инструмент и наконечники‚ маркировка и т, д.</li>
                                 <li>Техническое консультирование клиентов</li>
                                 <li>Поиск новых клиентов/ развитие продаж существующих клиентов</li>
@@ -46,26 +43,23 @@ class Job extends Component {
                                 <li>Разработка предложений по увеличению объема продаж</li>
                                 <li>Развитие клиентской базы и дилерской сети по направлениям в промышленности</li>
                                 <li>Анализ продаж, планирование и отчетность</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
                 <div className="Job-enumeration-full">
                     <div className="Job-enumeration-title">Условия</div>
                     <div className="Job-enumeration-content">
-                        <ul>
                             <li>Оформление в соответствие с Трудовым кодексом РФ</li>
                             <li>Медицинская страховка (ДМС) после года работы</li>
                             <li>Заработная плата на испытательный период — фиксированная сумма‚ далее фикс+% от продаж</li>
-                        </ul>
                     </div>
                 </div>
                 <div className="Job-enumeration-full">
                     <div className="Job-enumeration-title">Контактная информация</div>
                     <div className="Job-enumeration-content">
-                        <div>Контактное лицо: Быцюк Вячеслав Станиславович</div>
-                        <div>Телефон: +7-(903)-406-00-69</div>
-                        <div>E-mail: tes-rnd@mail.ru. info@tes-rnd.ru</div>
+                        <li>Контактное лицо: Быцюк Вячеслав Станиславович</li>
+                        <li>Телефон: +7-(903)-406-00-69</li>
+                        <li>E-mail: tes-rnd@mail.ru. info@tes-rnd.ru</li>
                     </div>
                 </div>
             </div>

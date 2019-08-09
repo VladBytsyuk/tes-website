@@ -3,18 +3,22 @@
     text-align: left;
     max-width: 1440px;
     margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+    background: #ededed;
+    box-shadow: 4px 4px 4px #00000040;
+    border-radius: 32px;
 }
 .Company-text {
-    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .Company-text-bottom {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 0px;
 }
 .Company-text-small {
     font-size: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
 }
 .Company-enumeration {
     font-size: 32px;
