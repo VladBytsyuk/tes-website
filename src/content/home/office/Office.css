@@ -1,0 +1,41 @@
+.Office {
+    background-color: #00A28F;
+    color: #ffffff;
+}
+
+.Office-title {
+    padding-top: 32px;
+    font-size: 48px;
+    font-family: 'Russo One';
+
+}
+
+.Office-hbox {
+    padding-top: 32px;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.Office-left {
+    font-size: 44px;
+    text-align: right;
+    margin-right: 16px;
+}
+
+.Office-text-top {
+
+}
+
+.Office-text-bottom {
+    margin-top: 8px;
+    margin-bottom: 44px;
+}
+
+
+.Office-map {
+    width: 720px;
+    height: 405px;
+    background: #ffffff;
+    border-radius: 32px;
+}
