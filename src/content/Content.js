@@ -5,10 +5,23 @@ import Contacts from './contacts/Contacts';
 import Job from './job/Job';
 
 class Content extends Component {
+    renderContent() {
+        const tab = this.props.tabNumber
+        if (tab === 2) {
+            return (<Company/>)
+        } else if (tab === 4) {
+            return (<Contacts/>)
+        } else if (tab === 5) {
+            return (<Job/>)
+        } else {
+            return (<div/>)
+        }
+    }
+
     render() {
         return (
             <div className="Content">
-                <Contacts />
+                {this.renderContent()}
             </div>
         );
     }

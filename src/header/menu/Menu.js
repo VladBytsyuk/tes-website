@@ -3,13 +3,8 @@ import './Menu.css';
 import MenuItem from './menu_item/MenuItem';
 
 class Menu extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { enabledTab: 1 };
-    }
-
     render() {
-        const enabledTab = this.state.enabledTab;
+        const enabledTab = this.props.tabNumber;
         const tabs = [
             {name: "Главная", number: 1}, 
             {name: "О компании", number: 2}, 
@@ -23,7 +18,7 @@ class Menu extends Component {
                     <MenuItem 
                         name={tab.name} 
                         isEnabled={enabledTab === tab.number} 
-                        tabClickListener={ () => this.setState({ enabledTab: tab.number }) } 
+                        tabClickListener={ () => this.props.tabClickListener(tab.number) } 
                         />
                 )}
             </div>
