@@ -12,15 +12,16 @@
 
 .Office-hbox {
     padding-top: 32px;
-    max-width: 1440px;
+    max-width: 1312px;
     display: flex;
     margin: 0 auto;
 }
 
 .Office-left {
+    width: 50%;
     font-size: 44px;
     text-align: right;
-    margin-right: 16px;
+    padding-right: 32px;
 }
 
 .Office-text-top {
@@ -34,7 +35,7 @@
 
 
 .Office-map {
-    width: 720px;
+    width: 50%;
     height: 405px;
     background: #ffffff;
     border-radius: 32px;
