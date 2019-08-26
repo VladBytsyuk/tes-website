@@ -5,17 +5,16 @@ import MenuItem from './menu_item/MenuItem';
 class Menu extends Component {
     constructor(props) {
         super(props);
-        this.state = { activeTab: 1 };
-      }
+        window.onpopstate = () => { this.forceUpdate() }
+    }
 
     render() {
-        const activeTab = this.state.activeTab;
         const tabs = [
-            {name: "Главная", number: 1, route: "/"}, 
-            {name: "О компании", number: 2, route: "/company"}, 
-            {name: "Производители", number: 3, route: "/"}, 
-            {name: "Контакты", number: 4, route: "/contacts"}, 
-            {name: "Вакансии", number: 5, route: "/job"}
+            {name: "Главная", route: "/"}, 
+            {name: "О компании", route: "/company"}, 
+            {name: "Производители", route: "/partners"}, 
+            {name: "Контакты", route: "/contacts"}, 
+            {name: "Вакансии", route: "/job"}
         ];
         return (
             <div className="Menu">
@@ -23,8 +22,8 @@ class Menu extends Component {
                     <MenuItem 
                         name={tab.name} 
                         route={tab.route}
-                        isEnabled={activeTab === tab.number} 
-                        tabClickListener={ () => this.setState({ activeTab : tab.number }) } 
+                        isEnabled={window.location.href.endsWith(tab.route)}
+                        tabClickListener={ () => this.forceUpdate() }
                         />
                 )}
             </div>
