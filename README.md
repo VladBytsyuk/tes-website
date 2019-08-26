@@ -1,3 +1,28 @@
+# Firebase
+
+## Deploy
+First of all you need to build a react application
+```sh
+npm run build
+```
+
+After you need to deploy it.
+```sh
+firebase deploy
+```
+
+## Initialization
+```sh
+firebase init
+```
+After that choose ```Hosting``` by ```space``` button and confirm it by ```enter``` button.
+Next you need to choose a directory. Write ```build``` and push ```enter``` button.
+Next checks should be ```y``` and ```n```.
+
+
+
+# React content
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
