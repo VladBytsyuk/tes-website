@@ -3,13 +3,18 @@
     width: 256px;
     height: 60px;
     font-size: 32px;
-    color: #FFFFFF;    
+    color: #FFFFFF;   
+    text-decoration: none !important; 
+}
+.MenuItem-link {
+    text-decoration: none !important;
 }
 .MenuItem-name {
     text-align: center;
     height: 52px;
     font-size: 32px;
-    color: #FFFFFF;    
+    color: #FFFFFF;  
+    text-decoration: none !important;  
 }
 .MenuItem-line-enabled {
     width: 256px;
@@ -27,4 +32,3 @@
     height: 8px;
     background: #Ffffff88;    
 }
-

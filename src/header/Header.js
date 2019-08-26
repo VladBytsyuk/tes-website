@@ -14,10 +14,7 @@ class Header extends Component {
             <div className="Header-subtitle">Мы всегда предлагаем нашим клиентам оптимальное соотношение цена/качество, при этом сохраняя минимальные сроки поставок</div>
           </div>
         </div>
-        <Menu
-            tabNumber={this.props.tabNumber} 
-            tabClickListener={ (tabNumber) => this.props.tabClickListener(tabNumber) }
-            />
+        <Menu />
       </div>
     );
   }

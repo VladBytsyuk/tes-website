@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './MenuItem.css';
 
 class MenuItem extends Component {
@@ -6,8 +7,12 @@ class MenuItem extends Component {
   render() {
     return (
       <div className="MenuItem" onClick={() => this.props.tabClickListener()}>
-        <div className="MenuItem-name">{this.props.name}</div>
-        <div className={this.props.isEnabled ? "MenuItem-line-enabled" : "MenuItem-line-disabled"} />
+        <Link to={this.props.route} className="MenuItem-link">
+          <div>
+            <div className="MenuItem-name">{this.props.name}</div>
+            <div className={this.props.isEnabled ? "MenuItem-line-enabled" : "MenuItem-line-disabled"} />
+          </div>
+        </Link>
       </div>
     );
   }
