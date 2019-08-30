@@ -3,7 +3,7 @@
     width: 256px;
     height: 60px;
     font-size: 32px;
-    color: #FFFFFF;   
+    color: var(--white);   
     text-decoration: none !important; 
 }
 .MenuItem-link {
@@ -13,22 +13,22 @@
     text-align: center;
     height: 52px;
     font-size: 32px;
-    color: #FFFFFF;  
+    color: var(--white);  
     text-decoration: none !important;  
 }
 .MenuItem-line-enabled {
     width: 256px;
     height: 8px;
-    background: #F85344ff;    
+    background: var(--accent);    
 }
 .MenuItem-line-disabled {
     width: 256px;
     height: 8px;
-    background: #F8534400;    
-    transition: 0.3s;
+    background: var(--transparent);    
+    transition: var(--animation-duration);
 }
 .MenuItem:hover .MenuItem-line-disabled {
     width: 256px;
     height: 8px;
-    background: #Ffffff88;    
+    background: var(--white-disabled);    
 }

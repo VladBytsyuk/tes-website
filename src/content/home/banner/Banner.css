@@ -3,8 +3,8 @@
 }
 
 .Banner-image {
-    width: 1312px;
+    width: 70%;
     border-radius: 32px;
-    box-shadow: 4px 4px 4px #00000040;
+    box-shadow: 4px 4px 4px var(--shadow);
     margin-top: -192px;
 }

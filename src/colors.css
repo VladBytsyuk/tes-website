@@ -1,0 +1,14 @@
+:root {
+    --primary: #00A28F;
+    --accent: #F85344;
+
+    --white: #FFFFFF;
+    --white-disabled: #FFFFFF88;
+    --transparent: #FFFFFF00;
+
+
+    --shadow: #00000040;
+
+
+    --animation-duration: 0.3s;
+}

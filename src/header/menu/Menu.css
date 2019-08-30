@@ -1,6 +1,6 @@
 .Menu {
     display: flex;
     text-align: center;
-    max-width: 1280px;
+    width: 70%;
     margin: 0 auto;
 }
